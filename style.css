@@ -1,0 +1,206 @@
+  
+body{
+    margin: 0;
+    padding: 0;
+}
+.wrapper{
+    width: 80%;
+    margin: auto;
+}
+a{
+    text-decoration: none;
+}
+header{
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    background-color: white;
+    z-index: 1000;
+    box-shadow: 0px 2px 10px -1px rgba(0, 0, 0, 0.19);
+}
+.container{
+    display: grid;
+    grid-template-columns: auto auto;
+}
+.logo{
+    padding-left: 40px;
+}
+li{
+    list-style: none;
+    float: left;
+    padding-right: 20px;
+}
+li a{
+    color: #a82d49;
+}
+.number{
+    border: 3px solid #a82d49;
+    color: white;
+    padding: 5px 15px;
+    background-color: rgba(168,45,73,1);
+    transition: .5s;
+}
+.nav-menu{
+    padding-top: 20px;
+    padding-left: 300px;
+}
+.sec1{
+    background-position: center;
+    padding: 250px 0 250px 200px;
+    background-image: url(http://d9hhrg4mnvzow.cloudfront.net/unbouncepages.com/foodera/c84cd26a-3_0000001hc0mv00003k000.jpg);
+}
+.number:hover{
+    background-color: white;
+    color: #a82d49;
+}
+.text-span{
+font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+font-size: 50px;
+padding-top: 40px;
+}
+.sec1 p{
+    padding-bottom: 40px;
+    font-size: 20px;
+}
+.find1{
+    padding: 10px 30px;
+    border: 3px solid #a82d49;
+    color: white;
+    background-color: #a82d49;
+    font-weight: 20px;
+}
+.find1 span{
+    padding-left: 10px;
+}
+.find1:hover{
+    color: #a82d49;
+    background-color: #fff;
+    border: 3px solid #a82d49;
+    transition: .5s
+}
+.find2{
+    box-shadow: 0px 2px 10px -1px rgba(0, 0, 0, 0.19);
+    border: 3px solid #fff;
+    color: black;
+    padding: 10px 30px;
+}
+.find2 i{
+    color: black;
+    font-size: 14px;
+}
+.find2:hover{
+    border: 3px solid #a82d49;
+    transition: .5s;
+    color: #a82d49;
+}
+.sec2{
+    padding: 100px 0;
+}
+.numbers{
+    text-align: center;
+    background-color: #a82d49;
+    display: flex;
+}
+.num{
+    font-size: 25px;
+    justify-content: center;
+    color: #fff;
+    flex: 1;
+}
+.num span{
+    font-size: 45px;
+}
+.num h6{
+    padding-top: 10px;
+}
+.sec3{
+    display: flex;
+    justify-content: center;
+    padding: 80px 0;
+}
+.photo1 img{
+    border-radius: 10px;
+    padding-left: 10px;
+}
+.find3{
+    padding: 10px 30px;
+    border: 3px solid #a82d49;
+    color: white;
+    background-color: #a82d49;
+}
+.find3:hover{
+    color: #a82d49;
+    background-color: #fff;
+    border: 3px solid #a82d49;
+    transition: .5s;
+}
+.sec3-text{
+    padding-right: 100px;
+    padding-top: 60px;
+}
+.sec3 p{
+    padding-bottom: 30px;
+}
+
+.sec4{
+    display: flex;
+    flex:1;
+}
+.sec4-text{
+    padding-top: 100px;
+}
+.sec4 h3{
+    font-size: 30px;
+    font-family: 'Quicksand', sans-serif;
+    line-height: 45px;
+    color: #43121d;
+}
+.about{
+    padding: 10px 30px;
+    border: 3px solid #a82d49;
+    color: white;
+    background-color: #a82d49;
+    font-weight: 20px;
+}
+.img2{
+    width: 80%;
+    justify-content: flex-end;
+    padding-left: 100px;
+}
+.nav-ul{
+    padding-bottom: 20px;
+    padding-left: 0;
+display: flex;
+flex-direction: column;
+}
+.sec4 i{
+    padding: 10px;
+    color: #a82d49;
+}
+.sec4 p{
+    padding: 20px 0;
+    color: #555;
+    font-family: 'Roboto', sans-serif;
+}
+
+.sec5{
+    background-position: right;
+    padding: 100px 0;
+    width: 100%;
+    text-align: center;
+    background-image: url(http://demo.tutsflow.com/foodera/images/parallax/1.jpg);
+}
+.sec5 h1{
+    color: #a82d49;
+}
+.sec5 pre{
+    font-size: 16px;
+    color: #555;
+    padding: 20px 0;
+    line-height: 28px;
+    font-family: 'Roboto', sans-serif;
+}
+.about1{
+    color: #43121d;
+}
